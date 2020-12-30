@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name = "Parallel Testing Suite">
+   <test name = "Parallel Tests" parallel = "classes" thread-count = "3">
+      <classes>
+         <class name="sridhar.RequestAssessment"/>
+         <class name="sridhar.RequestBotMeeting"/>
+         <class name="sridhar.Request_Service"/>
+      </classes>
+   </test>
+</suite>
